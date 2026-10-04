@@ -6,5 +6,6 @@ export default defineConfig({
   server: {
     port: 5173,
     host: '0.0.0.0'
-  }
+  },
+  base: '/moon-autoparts/' // <--- Tambahkan baris ini (jangan lupa tanda koma di atasnya)
 });
